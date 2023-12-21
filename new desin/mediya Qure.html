@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="continer">
+
+<div class="food">
+    <img src="picture/images.jpg" alt="">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur exercitationem beatae, dicta deserunt ipsam dolores molestias sint. Aperiam, velit eligendi! Enim tempora laborum corporis natus optio accusantium officiis delectus?</p>
+</div>
+<div class="food">
+    <img src="picture/images.jpg" alt="">
+    <p>Dolorem quas provident aperiam officia optio molestiae molestias. Optio praesentium doloribus reprehenderit nostrum eaque tempora quidem recusandae mollitia voluptatem obcaecati, deserunt nesciunt et sit? Provident quos repudiandae laboriosam eius modi?</p>
+</div>
+<div class="food">
+    <img src="picture/images.jpg" alt="">
+    <p>Ullam reiciendis dicta, harum, sequi praesentium ipsum quaerat odit quod eos voluptatem ab, perspiciatis soluta! Voluptate sequi reprehenderit accusamus hic ex suscipit fuga expedita facilis excepturi voluptatum culpa, deserunt magnam.</p>
+</div>
+<div class="food">
+    <img src="picture/images.jpg" alt="">
+    <p>Dolor similique nobis animi nihil iure impedit amet, facere unde dolorem labore quisquam expedita commodi id autem. Distinctio ad nobis iusto accusamus. Harum eveniet obcaecati sint consequuntur a temporibus soluta.</p>
+</div>
+<div class="food">
+    <img src="picture/images.jpg" alt="">
+    <p>Quibusdam sit debitis facilis architecto cupiditate labore sunt excepturi velit, ipsum, iusto facere. Magni, sunt? Accusamus fugiat neque tempore veritatis, porro soluta ipsum delectus maxime. Eveniet tenetur possimus dolor assumenda.</p>
+</div>
+<div class="food">
+    <img src="picture/images.jpg" alt="">
+    <p>Reprehenderit mollitia iusto odio. Doloribus deserunt eum obcaecati, ab iusto accusantium culpa ex vitae minus ipsam quia sequi, esse nemo voluptate. Iste nam modi, ab itaque labore quia sapiente est?</p>
+</div>
+
+  </div>
+</body>
+<style>
+.continer{
+    display: flex;
+    max-width: 1200px;
+    margin: 5 auto;
+    flex-direction: row;
+    flex-wrap: wrap  ;
+}
+.food{
+
+    border: 1px solid green;
+    border-radius: 10px;
+    margin: 10px;
+    width: 350px;
+}
+   
+.food img{
+
+    width: 100%;
+
+
+}
+@media (max-width:760px){
+.continer{
+    flex-direction: column;
+}
+    .continer{
+
+        background: darkturquoise;
+    }
+}
+@media (min-width:1200px;){
+    .continer .food{
+
+        background-color: lightblue;
+    }
+}
+</style>
+</html>

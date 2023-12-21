@@ -1,0 +1,29 @@
+#float-left{
+    text-align: center;
+  color: rgb(189, 109, 12);
+
+}
+.box{
+width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    padding: 20px;
+    font-size: 20px;
+    float: left;
+    margin: 10px;
+    height: 300px;
+border-radius: 5px;
+    
+ }
+ #stoke{
+    border-left: 8px solid;
+    border-image: linear-gradient( 180deg, rgb(71, 212, 24),rgb(14, 164, 228), rgb(235, 34, 249) );
+ border-image-slice: 1;
+
+ 
+}
+#color{
+
+   border-left: 8px solid ;
+   border-image: linear-gradient(red, yellow, green );
+border-image-slice: 1;
+}

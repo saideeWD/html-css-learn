@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    @keyframes slidein{
+0%{ left: 0;
+    top: 0;
+    background-color:hotpink;
+
+}
+50%{
+    left: 400px;
+    top: 200px;
+    background-color: khaki;
+}
+100%{
+left: 800px;
+top: 0;
+background-color: rgb(103, 79, 239);
+
+}
+    }
+    .stage:hover .bol{
+animation: slidein  3s ease-in-out 1s  infinite alternate;
+
+    }
+    .stage{
+        background: rgb(226, 173, 241);
+        height: 300px;
+        min-width: 200px;
+    }
+    .bol{
+
+        width: 100px;
+        height: 100px;
+       border-radius: 50%;
+        background-color: rgb(72, 225, 21);
+        position: absolute;
+    }
+</style>
+<body>
+  <div class="stage">
+    <div class="bol">
+
+
+    </div>
+  </div>
+</body>
+</html>
